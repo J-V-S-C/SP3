@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Remoção de Morador</title>
-    <link rel="stylesheet" href="controlesstyle.css">
+    <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
@@ -25,7 +25,7 @@
 
     <form method="post" action="../../controller/remocaoController.php">
       <label>Digite o número de apartamento que deseja remover:</label>
-      <input type="number" name="numeroAp" required>
+      <input type="number" id="numeroAp" name="numeroAp" placeholder="Insira seu número de Ap" required>
       <br><br>
       <button type="submit" value="Enviar">Enviar</button>
     </form>

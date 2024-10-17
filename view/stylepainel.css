@@ -1,65 +1,44 @@
-body{
-    background-color: rgb(231, 231, 231);
-    margin: 0;
-    text-align: center;
-    font-size: 28px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-h1{
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+nav {
+  justify-content: center;
 }
 
-
-nav{
-    padding: 0;
+nav a {
+  font-size: 20px;
+  display:flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.list{
-    list-style-type: none;
-}
-
-.list a{
-    margin-right: 20px;
-    text-decoration: none;
-    color: blue;
-    font-size: 40px;
-}
-
-.list a:hover{
-    color: rgb(42, 42, 255);
-    font-size: 45px;
-}
-
-
-header {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 1px;
-    background-color: rgb(28, 26, 26);
-    color: #fefefe;
+.list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  flex-direction: column;
   
-  }
+}
 
-  
-  nav {
-    display: flex;
-    gap: 30px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #fefefe;
-  }
-  
-  nav i {
-    transition: 0.5;
-    transition: padding 0.3 ease;
-  }
-  
-  nav i:hover {
-    color: aqua;
-    cursor: pointer;
-  }
+.list a {
+  color: rgb(29, 169, 43);
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+.list a:hover {
+  color:rgb(31, 161, 161);
+  transform: scale(1.1);
+}

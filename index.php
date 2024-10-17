@@ -12,15 +12,16 @@
     <header>
 
       <nav>
+        <h1>SP3</h1>
         <a href="./view/Home.php" title="Home">
-          <i class="fas fa-house"></i>
+          <i class="fas fa-house"></i>Home
         </a>
       </nav>
     </header>
-    <h1>Bem vindo ao sistema SP3!!</h1>
+    <h2>Bem vindo ao sistema!</h2>
     <form method="post" action="./view/Home.php">
       <label>Digite o número de apartamentos:</label>
-      <input type="number" name="Aps" required>
+      <input type="number" name="Aps" placeholder="Número de APs" required>
       <br><br>
       <button type="submit" value="Enviar">Enviar</button>
     </form>
@@ -31,7 +32,7 @@
 
 if(isset($_GET['cod']) && $_GET['cod'] == 'erro')
 {   
-    echo '<label class="text-danger">Quantidade inválida!</label>';
+    echo '<label class="text-danger">Insira entre 1 a 100 APs!</label>';
 }
 
   ?>

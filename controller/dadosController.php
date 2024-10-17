@@ -13,3 +13,4 @@ $morador = new Morador($db);
     }
 
     echo json_encode($moradores);
+    
