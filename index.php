@@ -17,7 +17,7 @@
         </a>
       </nav>
     </header>
-    <h1>Bem vindo ao sistema SP3!</h1>
+    <h1>Bem vindo ao sistema SP3!!</h1>
     <form method="post" action="./view/Home.php">
       <label>Digite o número de apartamentos:</label>
       <input type="number" name="Aps" required>
